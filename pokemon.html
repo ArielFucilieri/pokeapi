@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon</title>
+    <link rel="stylesheet" href="pokeapi.css">
+</head>
+<body>
+    <div class="container flex-container">
+        <img src="pngwing.com.png" alt="" class="logo">
+        <div class="search-bar">
+            <input type="text" placeholder="Insert pokemon name" id="pokemonName">
+            <button id="search-btn" disabled>Search</button>
+        </div>
+        <div class="alert" id="alert" hidden>
+            <p>Pokemon not found, try again please :)</p>
+        </div>
+        <div id="infPokemon">
+                <img id="image">
+                <p id="name"></p>
+                <p id="id"></p>
+                <p id="type"></p>
+                <p id="height"></p>
+                <p id="weight"></p>
+        </div>
+    </div>
+</body>
+
+<script src="mainjs.js"></script>
+</html>
